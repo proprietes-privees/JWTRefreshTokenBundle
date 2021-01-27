@@ -73,7 +73,6 @@ class Configuration implements ConfigurationInterface
                         ->scalarNode('domain')->defaultNull()->end()
                         ->scalarNode('secure')->defaultTrue()->end()
                         ->scalarNode('httpOnly')->defaultTrue()->end()
-                        ->scalarNode('tokenInCookieOnly')->defaultTrue()->end()
                     ->end()
                 ->end()
             ->end();
