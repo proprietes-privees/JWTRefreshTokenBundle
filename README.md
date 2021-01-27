@@ -272,6 +272,7 @@ gesdinet_jwt_refresh_token:
       domain: null
       httpOnly: true
       secure: true
+      tokenInCookieOnly: true
 ```
 
 ### Use another entity for refresh tokens
