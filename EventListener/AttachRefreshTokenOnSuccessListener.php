@@ -161,7 +161,9 @@ class AttachRefreshTokenOnSuccessListener
                     $this->cookie['sameSite']
                 )
             );
-        } else {
+        } 
+        
+        if (!$this->cookie['tokenInCookieOnly']) {
             $data[$this->tokenParameterName] = $refreshTokenString;
 
             $event->setData($data);
