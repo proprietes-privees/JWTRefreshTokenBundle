@@ -1,10 +1,10 @@
 {
-  "name" : "gesdinet/jwt-refresh-token-bundle",
+  "name" : "proprietes-privees/jwt-refresh-token-bundle",
   "description" : "Implements a refresh token system over Json Web Tokens in Symfony",
   "type" : "symfony-bundle",
   "authors" : [{
-    "name" : "Marcos Gómez Vilches",
-    "email" : "marcos@gesdinet.com"
+    "name" : "Propriétés Privées",
+    "email" : "webmaster@proprietes-privees.com"
   }],
   "keywords" : [
     "jwt refresh token bundle symfony json web"
